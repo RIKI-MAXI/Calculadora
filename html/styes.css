@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    width: 1400px;
+    position: relative;
+    text-align: center;
+    top: -45px;
+    left: -7px;
+    
+}
+.card::after{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    background: rgb(190, 190, 190);
+    width: 100%;
+    height: 100%;
+    filter: blur(10px);
+    z-index: -1;
+    
+}
+.p{
+    border: rgb(240, 176, 176) 3px solid;
+    position: absolute;
+    width: 300px;
+    height: 257px;
+    top:165px;
+    left: 530px;
+    z-index: -1;
+    
+  }
+#resta {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 6px;
+    left:40px;
+  }
+#suma{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 6px;
+    left:1277px;
+}
+#mul{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 6px;
+    left:820px;
+}
+#divi{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 6px;
+    left:280px;
+}
+#cor{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 6px;
+    left:1050px;
+}
+
+#igu{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 6px;
+    left:520px;
+}
+.b{
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  width: 500px;
+  height: 50px;
+
+
+}
+#boton{
+    position: absolute;
+    width: 70px;
+    height: 120px;
+    top: 300px;
+    left:650px;
+    z-index: -1;
+
+
+}
+
+
